@@ -575,7 +575,7 @@
       <div class="gate-mark" aria-hidden="true">B</div>
       <h1 id="gateTitle">Beacon Hill briefing</h1>
       <p>Enter the passphrase to continue.</p>
-      <p class="gate-updated">Last updated Tue Oct 13, 2026 · 7:54pm ET</p>
+      <p class="gate-updated">Last updated Wed Oct 14, 2026 · 12:47pm ET</p>
       <form class="gate-form" id="gateForm">
         <input class="gate-input" id="gatePassphrase" type="password" autocomplete="off" aria-label="Passphrase" required />
         <button class="gate-submit" type="submit">Enter</button>
@@ -870,15 +870,15 @@
   "staffPhoneTel": "+12028978917",
   "attendees": "Jim + Marty",
   "length": "30 min hard stop",
-  "lockLine": "Room: invite text says Conf Rm W93-102; booked room resource + W&W book say W82-302. Confirm on arrival.",
+  "lockLine": "Room # doesn't matter: check in, then call Tamica Dixon 202-897-8917 for escort (per Morgan).",
   "who": {
    "name": "Jennifer Lisaius (organizer) · Luisa Guerra-Young · Grant Burdette · OST-R possibly added",
    "title": "Office of Public Liaison / Office of Transportation Policy",
    "since": "Loren Smith declined",
-   "background": "Guerra-Young: Deputy Asst. Secretary for Transportation Policy; ex-Boeing executive comms (BDS CEO; Aurora Flight Sciences autonomy); Fordham BS bio/chem + MA elections; Virginia Tech MS comp-eng candidate. Burdette: Assoc. Director, Public Liaison since Feb 2025; Trump 2024 advance team (political); Univ. of Alabama; interned for Aderholt and Palmer; invite email is john.burdette.",
+   "background": "Guerra-Young: Deputy Asst. Secretary for Transportation Policy; ex-Boeing executive comms (BDS CEO; Aurora Flight Sciences autonomy); Fordham BS bio/chem + MA elections; Virginia Tech MS comp-eng candidate. Burdette (john.burdette@dot.gov): Public Liaison since Feb 2025 (title varies by source: Assoc. Director, Special Assistant, or Acting Director); Trump 2024 advance team (political); Univ. of Alabama; interned for Aderholt and Palmer; may go by John.",
    "covers": "If Research (OST-R) joins: Michael Halem, Lee White, Timothy Klein, Brian Cronin are on its public roster."
   },
-  "memberSnap": "Check-in: Tamica Dixon 202-897-8917 after sign-in. Room W82-302 vs W93-102 — confirm on arrival.",
+  "memberSnap": "Check in, then call Tamica Dixon 202-897-8917 for escort. Room # irrelevant.",
   "why": {
    "seat": "Guerra-Young runs transportation policy coordination across agencies, OMB and the White House.",
    "state": "Marty is already sending them the GDOT benchmark link.",
@@ -899,7 +899,7 @@
   "artifact": "Staffer coin → GDOT benchmark; boss coin → transportation.gov/meet-the-secretary (verify on phone; fallback transportation.gov).",
   "glance": [
    "Arrive 12:45, REAL ID, call Tamica 202-897-8917.",
-   "Room W82-302 or W93-102 — confirm.",
+   "Tamica escorts you; room # irrelevant.",
    "Guerra-Young = policy; Burdette = political; Lisaius organizes.",
    "One ask, not four.",
    "No report language here.",
@@ -924,7 +924,7 @@
  {
   "id": "curtis-simmons",
   "time": "3:00",
-  "timeLabel": "3:00pm ET · In book; not yet on calendar — confirm with Morgan",
+  "timeLabel": "3:00–3:30pm ET · Confirmed, on calendar",
   "arrive": "~2:50pm · Hart security",
   "building": "502 Hart SOB",
   "state": "UT",
@@ -936,7 +936,7 @@
   "staffTitle": "Legislative Assistant",
   "attendees": "Jim (+ W&W)",
   "length": "—",
-  "lockLine": "In book; not yet on calendar — confirm with Morgan (201) 312-4682.",
+  "lockLine": "Confirmed 3:00–3:30 in 502 Hart; on your calendar.",
   "who": {
    "name": "Grace (Anna G.) Simmons",
    "title": "Legislative Assistant, Sen. John Curtis (R-UT)",
@@ -1025,7 +1025,8 @@
   ],
   "artifact": "Staffer coin → GDOT benchmark; boss coin → cruz.senate.gov.",
   "glance": [
-   "Cruz = Commerce chair.",
+   "Cruz = Commerce chair. Hooks: SANDBOX Act (light-touch AI) + AV framework in surface reauth.",
+   "W&W bringing printed books incl. Cruz.",
    "McCarthy: Cruz LA since Jun 2025; ex-Crenshaw.",
    "Portfolio unconfirmed — ask first.",
    "Same TxDOT framing as Nehls.",
@@ -1068,7 +1069,7 @@
         <div>
           <div class="who">${esc(o.staff)} / ${esc(o.memberShort)}</div>
           <div class="where">${esc(o.building)}</div>
-          ${o.id === "curtis-simmons" ? `<div class="where day-note">In book; not yet on calendar — confirm with Morgan</div>` : ""}
+          ${o.id === "curtis-simmons" ? `<div class="where day-note">Confirmed 3:00–3:30</div>` : ""}
         </div>
         <span class="badge ${o.state.toLowerCase()}">${esc(o.state)}</span>
       </button>`).join("") + `
